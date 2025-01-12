@@ -146,10 +146,11 @@ src/
 │   ├── jwt.strategy.ts      # JWT 策略
 │   └── keys/                # RSA 密钥对
 ├── user/                    # 用户模块
-│   ├── user.entity.ts       # 用户实体
 │   ├── user.service.ts      # 用户服务
 │   ├── user.controller.ts   # 用户控制器
 │   └── dto/                 # 数据传输对象
+├── entites/                 # 实体
+│   └──user.entity.ts        # 用户实体
 ├── app.module.ts            # 根模块
 └── main.ts                  # 应用程序入口
 ```
